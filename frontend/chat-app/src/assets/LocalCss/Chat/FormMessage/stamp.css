@@ -1,0 +1,29 @@
+.slide-bar {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.slide-bar img {
+    margin: 20px 15px 20px 15px;
+    width: 70px !important;
+    height: auto;
+    object-fit: scale-down;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+
+.stamp {
+    max-width: 100% !important;
+    width: auto !important;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.slide-bar img:hover {
+    transform: scale(2);
+}
+
+ul {
+    list-style: none;
+}

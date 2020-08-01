@@ -1,0 +1,10 @@
+.form-input{
+    margin: 40px 0 20px 0;
+}
+.name{
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+
+textarea{resize: none;}
